@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.home-section{
+    width: 80%;
+    height: 15vh;
+    text-align: right;
+    display:inline block;
+
+    
+}
+.carousel-item img{
+    height: 350px;
+}
+.carousel h1{
+    text-align: center;
+    color: #e5ff00;
+    margin-top: 30px;
+}
+.carousel p{
+    text-align: center;
+    margin-top: 25px;
+}
+#line{
+    border-bottom: 2px solid #ffc800;
+    width:50% ;
+    margin-top: 50px;
+     
+}
+#btn button{
+    display: block;
+    width: 150px;
+    height: 32px;
+    letter-spacing: 3px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn button:hover{
+    border-color: #ffc800;
+    color: rgb(255, 255, 255);
+}
+#products{
+    display:inline block;
+}
